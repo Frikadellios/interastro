@@ -1,0 +1,21 @@
+{
+    "name": "interastro",
+    "build": {
+        "dockerfile": "Dockerfile",
+        // Update 'VARIANT' to pick a Bun version.
+        "args": {
+            "VARIANT": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "astro-build.astro-vscode",
+                "unifiedjs.vscode-mdx",
+                "eliostruyf.vscode-front-matter-beta",
+                "oven.bun-vscode",
+                "biomejs.biome"
+            ]
+        }
+    }
+}
